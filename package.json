@@ -1,7 +1,6 @@
 {
-  "name": "assignment",
+  "name": "@automationhub/assignment",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "npx wdio run wdio.conf.ts",
@@ -9,7 +8,7 @@
     "report": "allure generate --clean && allure open"
   },
   "keywords": [],
-  "author": "",
+  "author": "nvntkmr81",
   "license": "ISC",
   "dependencies": {
     "@wdio/cli": "^7.16.3",
@@ -24,5 +23,17 @@
     "ts-node": "^10.4.0",
     "typescript": "^4.4.4",
     "wdio-chromedriver-service": "^7.2.2"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nvntkmr81/assignement.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nvntkmr81/assignement/issues"
+  },
+  "homepage": "https://github.com/nvntkmr81/assignement#readme",
+  "description": ""
 }
